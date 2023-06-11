@@ -1,0 +1,2 @@
+def convertFive(n):
+    return int(str(n).replace('0','5'))
