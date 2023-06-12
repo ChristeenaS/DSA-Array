@@ -1,0 +1,7 @@
+    def largestAndSecondLargest(self, sizeOfArray, arr):
+        max_no=max(arr)
+        second_max=-1
+        for i in arr:
+            if second_max<i and i!=max_no:
+                second_max=i
+        return max_no,second_max
